@@ -1,0 +1,37 @@
+body{
+    color: white;
+    background-color: #1d2630;
+}
+
+sk-done {
+    text-decoration: line-through;
+    color: #6c757d;
+}
+
+.task-item {
+    transition: all 0.3s ease;
+}
+
+.task-item:hover {
+    background-color: #f8f9fa;
+}
+
+.delete-btn:hover {
+    color: #dc3545 !important;
+}
+
+.edit-btn:hover {
+    color: #c6a11a !important;
+}
+
+.check-btn:hover {
+    color: #198754 !important;
+}
+
+.modal-title{
+    color: black !important;;
+}
+
+.task-completed {
+    background-color: #4fbf69; 
+}
